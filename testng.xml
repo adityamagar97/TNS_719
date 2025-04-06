@@ -3,8 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.TestCase.LoginPage_TestCases"/>
-      <class name="com.TettCase2.RegisterPage_test"/>
+       <class name="TestRunner.LoginRunner"/>
+          <class name="TestRunner.RegisterPageRunner"/>
+             <class name="TestRunner.User_runner"/>
+     
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
